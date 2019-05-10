@@ -1,42 +1,10 @@
 {
   "name": "short-interval-control-archetype-react-component-dev",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
   },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": [
-            "last 2 versions",
-            "safari >= 7"
-          ]
-        }
-      ],
-      "@babel/preset-react"
-    ]
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "commonjs": true,
-      "es6": true
-    },
-    "extends": [
-      "standard",
-      "eslint:recommended",
-      "plugin:react/recommended"
-    ],
-    "parserOptions": {
-      "sourceType": "module",
-      "ecmaVersion": "2017",
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
   "dependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
