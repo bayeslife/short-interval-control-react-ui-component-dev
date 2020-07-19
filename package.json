@@ -1,11 +1,15 @@
 {
   "name": "short-interval-control-archetype-react-component-dev",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
   },
-  "dependencies": {
+  "peerDependencies": {
+    "react": ">=16.8.6",
+    "react-dom": ">=16.8.6"
+  },
+  "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/polyfill": "^7.4.3",
@@ -26,10 +30,7 @@
     "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "html-webpack-inline-source-plugin": "^0.0.10",
-
     "nodemon": "^1.18.11",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "riteway": "^6.0.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.31.0",
