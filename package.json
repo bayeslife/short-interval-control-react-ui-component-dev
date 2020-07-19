@@ -1,6 +1,6 @@
 {
   "name": "short-interval-control-archetype-react-component-dev",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/polyfill": "^7.4.3",
